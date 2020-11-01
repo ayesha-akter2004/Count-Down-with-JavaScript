@@ -1,0 +1,60 @@
+/* basic styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background: url("./snow.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* countsown-container styles start */
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  /* margin-top: 25%; */
+  text-transform: capitalize;
+}
+
+.countdown-container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.big-text {
+  font-size: 3rem;
+}
+
+.countdown-container span {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  text-align: center;
+}
